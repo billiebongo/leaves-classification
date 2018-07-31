@@ -1,23 +1,18 @@
-to be done:
 
-- Build a simple pipeline
-- See some basic examples and copy
--copy the reusable functions
-- find out
-- list all possible method
-- own method: sort first
+#########################
 
+Final Submission: preprocessing.pass results.submission_8_0test.csv
 
-Sunday: send in one score. collect some research info
+########################
 
+open_cv data obtained with preprocessing.open_cv.py and folder of leaves images (1584 images) and output to all_image_output_v2.csv
 
-functions to write:
--display data
--encode data
+preprocessing.mergedbycol.py separates the OpenCV outputnin all_image_output_v2 to merged_train_sl_pit1.csv and merged_test_sl_pit1.csv used for training models
 
-Visualization (PCA, TSNE)
-feature extraction
-KNN
-Naive bayes
-nn
-other random classifies# automatedleavesclassification
+preprocessing.classifiers.py build models on several classifiers to get an idea on which classifier to use
+
+PCA data obtained with models.pca_leaves and output to PCA_labels_saved.csv
+
+Final model is trained with models.train_model.py
+
+scripts in leaves.scripts are just scripts to organize data to view the data more efficiently while analysing results from opencv and model training.
